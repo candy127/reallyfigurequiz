@@ -22,7 +22,7 @@ function timeirstart(){
 
 function timier(){
     time ++;
-    if(time >5){
+    if(time >4){
         answer = document.querySelector("#input").value;
         if(answer == answered[num]){
             alert("정답이다.");
@@ -57,4 +57,7 @@ function levelup(){
     num++;
     image.src = 'image/'+num+'.jpg';
     dvi.appendChild(image); 
+}
+function moved(){
+    location.href="quizgein.html";
 }
