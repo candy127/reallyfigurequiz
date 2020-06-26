@@ -5,6 +5,20 @@
     src: url('헬스셋조릿대Std.ttf');
     
 }
+#button{
+    font-family: webisfree;
+            background-color: #fff;
+            height:20px;
+            width:300px;
+            padding: 30px;
+            color: #000;
+            line-height:20px;
+            margin-top: 1vh;
+            border-radius: 10px;
+            font-size:28px;
+            font-weight:700;
+            border:1px solid black;
+}
 #title{
     font-family: webisfree;
     text-align: center;
