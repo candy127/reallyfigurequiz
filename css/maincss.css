@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+@font-face{
+    font-family: webisfree;
+    src: url('헬스셋조릿대Std.ttf');
+    
+}
+#title{
+    font-family: webisfree;
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 20px;
+    margin-top:10px;
+    color: #FF4F00;
+}
+#imagebox{
+    text-align: center;
+}
+
+#input{
+    display : block;
+    text-align: center;
+    margin : 0 auto;
+    width:360px;
+    height:35px;
+    font-size: 25px;
+}
