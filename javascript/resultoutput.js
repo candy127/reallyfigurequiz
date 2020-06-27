@@ -1,6 +1,6 @@
 const image = new Image(300,200);
 const dvi = document.querySelector("#imagebox");
-var texted = document.querySelector("#resulttext");
+var texted = document.querySelector("#resulttextd");
 var textedd = document.querySelector("#imagetext");
 texted.textContent= "당신의 인물퀴즈 능력은!"
 if(localStorage.point > 70){
