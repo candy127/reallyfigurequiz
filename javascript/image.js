@@ -12,7 +12,7 @@ localStorage.point = 0;
 image.src = 'image/'+num+'.jpg';
     dvi.appendChild(image); 
 
-//window.onload(timeirstart());
+window.onload(localStorage.point = 0);
 timeirstart();
 function timeirstart(){
     
@@ -26,7 +26,7 @@ function timier(){
     time ++;
     if(time >5){
         answer = document.querySelector("#input").value;
-        document.querySelector("#input").value ='';
+        document.getElementById("#input").blur;
         if(answer == answered[num]){
             point += 1;
             localStorage.point = point;
