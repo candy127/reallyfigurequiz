@@ -13,7 +13,8 @@ image.src = 'image/'+num+'.jpg';
     dvi.appendChild(image); 
 
 window.onload(localStorage.point = 0);
-timeirstart();
+window.onload(timeirstart());
+
 function timeirstart(){
     
     swit = setInterval("timier()", 1000); 
