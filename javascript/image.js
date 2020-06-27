@@ -26,6 +26,7 @@ function timier(){
     time ++;
     if(time >5){
         answer = document.querySelector("#input").value;
+        document.querySelector("#input").value ="";
         if(answer == answered[num]){
             point += 1;
             localStorage.point = point;
