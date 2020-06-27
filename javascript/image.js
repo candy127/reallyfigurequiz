@@ -27,7 +27,7 @@ function timeirstart(){
 function timier(){
     time --;
     timer.textContent = time;
-    if(time ==0){
+    if(time < 1){
         document.getElementById('input').blur();
         answer = document.querySelector("#input").value;
         
