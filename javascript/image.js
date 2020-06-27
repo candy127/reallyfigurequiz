@@ -26,7 +26,7 @@ function timier(){
     time ++;
     if(time >5){
         answer = document.querySelector("#input").value;
-        document.querySelector("#input").value ="";
+        document.querySelector("#input").value ='';
         if(answer == answered[num]){
             point += 1;
             localStorage.point = point;
@@ -38,7 +38,7 @@ function timier(){
             alert("오답 정답:"+answered[num]);
             location.href="resultpage.html";
         }
-        document.querySelector("#input").value ="";
+        document.querySelector("#input").value ='';
         time =0;
         
         clearInterval(swit); 
