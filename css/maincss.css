@@ -49,12 +49,23 @@
 #imagebox{
     text-align: center;
 }
-
+#button_R{
+    font-family: webisfreed; 
+    text-align: center;
+    font-size: 100px;
+    margin-top: 20px;
+}
 #input{
     display : block;
     text-align: center;
     margin : 0 auto;
-    width:360px;
+    width:200px;
     height:35px;
     font-size: 25px;
+}
+#timer{
+    font-family: webisfreed; 
+    margin-top: 0px;
+    font-size: 70px;
+   
 }
