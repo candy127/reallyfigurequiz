@@ -26,7 +26,7 @@ function timeirstart(){
 function timier(){
     time ++;
     if(time >5){
-        document.getElementById("input").blur();
+        document.getElementById('input').blur();
         answer = document.querySelector("#input").value;
         
         if(answer == answered[num]){
