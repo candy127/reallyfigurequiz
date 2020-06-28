@@ -33,9 +33,11 @@ function timier(){
         
         if(answer == answered[num]){
             point += 1;
+            
             localStorage.point = point;
             nawhat.push(num);
             shbbob();
+            time =5;
             
             
         }else {
@@ -43,10 +45,12 @@ function timier(){
             location.href="resultpage.html";
         }
         document.querySelector("#input").value ='';
-        time =0;
+        
         
         clearInterval(swit); 
+        
         timeirstart()
+        
     }
     
 }
@@ -62,6 +66,7 @@ function shbbob(){
     
     image.src = 'image/'+num+'.jpg';
     dvi.appendChild(image); 
+    
 }
 function levelup(){
     num++;
