@@ -44,7 +44,16 @@
     font-size: 80px;
     margin-bottom: 20px;
     margin-top:10px;
-    color: #FF4F00;
+    
+    background: linear-gradient(to bottom, #f00, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+
+
+
+
 }
 #imagebox{
     text-align: center;
